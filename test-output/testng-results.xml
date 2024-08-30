@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T10:43:06 IST" name="Default suite" finished-at="2024-08-30T10:44:27 IST" duration-ms="81459">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T10:43:06 IST" name="Default test" finished-at="2024-08-30T10:44:27 IST" duration-ms="81459">
+      <class name="org.amazon.Assessment">
+        <test-method is-config="true" signature="amazonHomePage()[pri:0, instance:org.amazon.Assessment@43df23d3]" started-at="2024-08-30T10:43:06 IST" name="amazonHomePage" finished-at="2024-08-30T10:43:21 IST" duration-ms="15763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonHomePage -->
+        <test-method signature="loginPage()[pri:0, instance:org.amazon.Assessment@43df23d3]" started-at="2024-08-30T10:43:21 IST" name="loginPage" finished-at="2024-08-30T10:43:38 IST" duration-ms="16738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="searchPage()[pri:0, instance:org.amazon.Assessment@43df23d3]" started-at="2024-08-30T10:43:38 IST" name="searchPage" finished-at="2024-08-30T10:43:52 IST" duration-ms="13338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method signature="checkoutPage()[pri:0, instance:org.amazon.Assessment@43df23d3]" started-at="2024-08-30T10:43:52 IST" name="checkoutPage" finished-at="2024-08-30T10:44:26 IST" depends-on-methods="org.amazon.Assessment.searchPage" duration-ms="34506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:org.amazon.Assessment@43df23d3]" started-at="2024-08-30T10:44:26 IST" name="browserclose" finished-at="2024-08-30T10:44:27 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.amazon.Assessment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
